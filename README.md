@@ -6,11 +6,11 @@ Key Components:
     Extracts text content from websites (e.g., articles, blog posts).
     Handles parsing of HTML and cleans the text to remove unwanted tags or elements (e.g., ads, navigation).
 
-2. Transformer Model for Summarization
+3. Transformer Model for Summarization
     Pre-trained models like BERT, T5, or Bart are used for generating concise summaries.
     Hugging Face’s transformers library is typically used for this purpose.
 
-3. Workflow:
+5. Workflow:
     Input: URL of a webpage.
     Scraping: Beautiful Soup fetches and cleans the textual data from the webpage.
     Preprocessing: The extracted text is cleaned and tokenized for the Transformer model.
